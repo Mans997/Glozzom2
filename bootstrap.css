@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ! header */
+#header{
+    background-image: url("https://cdn.pixabay.com/photo/2021/12/11/07/59/hotel-6862159_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+.header_back{
+    height: 600px;
+    display: flex;
+    align-items: center;
+
+}
+#section1{
+    background-image: url("https://cdn.pixabay.com/photo/2014/11/28/01/01/jay-548381_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section1_text{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.size img{
+width: 100%;
+height: 100%;
+}
+.section_col_text{
+    /* text-align: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
